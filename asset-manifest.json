@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/Birthday/static/js/main.612f00c9.js",
+    "static/media/birthday.mp4": "/Birthday/static/media/birthday.c5bc1397ad192156e6e5.mp4",
+    "index.html": "/Birthday/index.html",
+    "main.612f00c9.js.map": "/Birthday/static/js/main.612f00c9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.612f00c9.js"
+  ]
+}

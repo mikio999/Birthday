@@ -12,12 +12,7 @@ function VideoPlay() {
   return (
     <Container>
       <Title>Short Movie</Title>
-      <StyledVideo
-        autoPlay
-        loop
-        ref={videoRef}
-        onCanPlay={() => setPlayBackRate()}
-      >
+      <StyledVideo loop ref={videoRef} onCanPlay={() => setPlayBackRate()}>
         <source src={Video} type="video/mp4" />
       </StyledVideo>
       <BtnBox>

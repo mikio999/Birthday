@@ -20,6 +20,9 @@ function VideoPlay() {
       >
         <source src={Video} type="video/mp4" />
       </StyledVideo>
+      <GotoYoutube href="https://youtu.be/Bwe7nr60ikU" target="_blank">
+        유튜브에서 축하영상 보기!
+      </GotoYoutube>
       <BtnBox>
         <LetterBtn
           onClick={() => {
@@ -97,4 +100,21 @@ const MainBtn = styled.button`
 const BtnBox = styled.div`
   margin-top: 2rem;
   display: flex;
+`;
+
+const GotoYoutube = styled.a`
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: red;
+  border: solid 1.5px red;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: black;
+
+  &:hover {
+    background-color: red;
+    color: black;
+    border-color: black;
+  }
 `;

@@ -7,7 +7,7 @@ import VideoPlay from "./pages/VideoPlay";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/test" element={<Test />} />
